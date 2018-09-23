@@ -4,7 +4,7 @@ int main ()
 {
 	int num1,num2,num3;
 	printf("Enter your 3 Number (eg.1 2 3 or 5 7 3 )\n");
-	scanf("%d%d%d",&num1,&num2,&num3);
+	scanf("%d %d %d",&num1,&num2,&num3);
 	if(num1>num2){
 		if (num2>num3){
 			printf("Max = %d | Min = %d",num1,num3);
